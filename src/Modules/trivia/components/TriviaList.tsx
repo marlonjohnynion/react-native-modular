@@ -1,5 +1,5 @@
 import React from 'react';
-import {ScrollView, View, StatusBar, Text} from 'react-native';
+import {ScrollView, StatusBar, Text, View} from 'react-native';
 import styled from 'styled-components';
 
 type TriviaListProps = {
@@ -44,9 +44,9 @@ export const TriviaList: React.FC<TriviaListProps> = ({trivia}) => {
       <Container contentInsetAdjustmentBehavior="automatic">
         <View>
           {trivia &&
-            trivia.map(item => {
+            trivia.map((item, key) => {
               return (
-                <Card>
+                <Card key={key}>
                   <Heading>Question</Heading>
                   <Question>{item.question}</Question>
                   <Answer>Answer: {item.answer}</Answer>

@@ -27,3 +27,20 @@ module - name of the module
   index.ts - responsible for maintaining public module API
   slice.ts - contains the models, state and reducer function
 ```
+
+## Package Recommendations
+
+### Application Monitoring and Error Tracking
+
+- Sentry
+- New Relic
+
+### Authentication, Real Time Databases, Other native features and integrations for ios and android
+
+- CodePush (OTA)
+- Firebase
+
+### Mobile Growth
+
+- Branch
+- AppsFlyer

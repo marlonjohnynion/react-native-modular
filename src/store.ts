@@ -1,8 +1,8 @@
 import {
-  configureStore,
-  combineReducers,
-  ThunkAction,
   Action,
+  combineReducers,
+  configureStore,
+  ThunkAction,
 } from '@reduxjs/toolkit';
 import trivia from './Modules/trivia';
 
