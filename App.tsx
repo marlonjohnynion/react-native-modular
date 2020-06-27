@@ -1,14 +1,14 @@
 import React from 'react';
 import {store} from './src/store';
 import {Provider} from 'react-redux';
-import home from './src/Modules/trivia';
+import navigation from './src/Modules/navigation';
 
-const {TriviaListContainer} = home.containers;
+const {Navigation} = navigation.containers;
 
 const App: React.FC = () => {
   return (
     <Provider store={store}>
-      <TriviaListContainer />
+      <Navigation />
     </Provider>
   );
 };
