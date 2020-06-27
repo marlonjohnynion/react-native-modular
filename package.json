@@ -14,7 +14,8 @@
     "fix": "gts fix",
     "prepare": "yarn run compile",
     "pretest": "yarn run compile",
-    "posttest": "yarn run check"
+    "posttest": "yarn run check",
+    "create-module": "cd bin && node create-module.js && cd .."
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.10",
