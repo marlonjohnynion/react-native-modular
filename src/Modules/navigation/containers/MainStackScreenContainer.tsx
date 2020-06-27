@@ -8,7 +8,13 @@ const {TriviaListContainer} = trivia.containers;
 export const MainStackScreenContainer: React.FC = () => {
   return (
     <MainStack.Navigator>
-      <MainStack.Screen name="Trivia" component={TriviaListContainer} />
+      <MainStack.Screen
+        name="Trivia"
+        component={TriviaListContainer}
+        options={{
+          headerTitle: 'Awesome Trivia',
+        }}
+      />
     </MainStack.Navigator>
   );
 };

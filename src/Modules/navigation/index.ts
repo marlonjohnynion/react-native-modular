@@ -1,7 +1,3 @@
-import {Navigation} from './containers/NavigationContainer';
-
-const containers = {
-  Navigation,
-};
+import * as containers from './containers';
 
 export default {containers};
