@@ -1,8 +1,6 @@
 
 # React Native Modular [![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
 
-##  Summary
-
 This app's design pattern follows CBSE (Component Based Software Engineering) Principles which emphasizes in SOC (Separation of Concerns). Modular software design allows software engineers to design decoupled components as independent modules that encapsulate a set of features and related data.
 
 This is inspired by Engr. Ronna Mae Firmo on her work on Front-End applications.
